@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"go-rest-api/models"
+	"github.com/marwenbhriz/go-rest-api/models"
 	"gorm.io/gorm"
 
 	"github.com/gin-gonic/gin"
@@ -88,3 +88,4 @@ func Delete(c *gin.Context) {
 	}
 
 	c.JSON(http.StatusOK, gin.H{"message": "Data berhasil dihapus"})
+}

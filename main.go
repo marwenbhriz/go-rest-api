@@ -1,8 +1,9 @@
 package main
 
 import (
-	"go-rest-api/controllers/productcontroller"
-	"go-rest-api/models"
+	"github.com/marwenbhriz/go-rest-api/models"
+
+	"github.com/marwenbhriz/go-rest-api/controllers/productcontroller"
 
 	"github.com/gin-gonic/gin"
 )
